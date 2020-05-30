@@ -3,7 +3,7 @@ class Driver {
 		this.name = name;
 		this.startDate = new Date(day);
 	}
-	
+
 	yearsExperienceFromBeginningOf(year){
 		return year - this.startDate.getFullYear();
 	};
